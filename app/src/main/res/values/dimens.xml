@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="title_size">30sp</dimen>
+    <dimen name="login_top_marign">50dp</dimen>
+    <dimen name="horoizontal_margin">16dp</dimen>
+</resources>
