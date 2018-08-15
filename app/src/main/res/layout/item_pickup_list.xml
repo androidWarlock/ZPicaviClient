@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    xmlns:cardview="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    cardview:cardCornerRadius="@dimen/card_corner_radius"
+    android:layout_margin="8dp"
+    cardview:cardPreventCornerOverlap="true"
+    android:foreground="?android:attr/selectableItemBackground"
+    android:clickable="true">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Item"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginStart="@dimen/horoizontal_margin"
+            android:layout_marginEnd="@dimen/horoizontal_margin"
+            android:textSize="@dimen/itemNameSize"
+            android:textColor="@color/colorPrimary"/>
+
+        <TextView
+            android:id="@+id/itemLocation"
+            android:layout_below="@+id/itemName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text=" item location test"
+            android:layout_marginStart="@dimen/horoizontal_margin"
+            android:layout_marginEnd="@dimen/horoizontal_margin"/>
+
+
+        <TextView
+            android:id="@+id/itemQuantity"
+            android:layout_below="@+id/itemLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="120 gallon"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="@dimen/half_margin"
+            android:layout_marginStart="@dimen/horoizontal_margin"
+            android:layout_marginEnd="@dimen/horoizontal_margin"
+            android:textSize="@dimen/quantitySize"
+            android:textColor="@color/colorPrimary"/>
+
+    </RelativeLayout>
+</android.support.v7.widget.CardView>

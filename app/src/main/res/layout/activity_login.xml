@@ -49,6 +49,8 @@
         android:background="@color/colorPrimary"
         android:textColor="@color/white"
         android:text="@string/login"
+        android:foreground="?android:attr/selectableItemBackground"
+        android:clickable="true"
         />
 
 </RelativeLayout>
